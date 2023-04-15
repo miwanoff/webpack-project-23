@@ -1,0 +1,23 @@
+{
+  "name": "webpack-project-23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha3",
+    "jquery": "^3.6.4"
+  }
+}

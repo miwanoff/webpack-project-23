@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <!-- <link rel="stylesheet" href="./css/basket.css"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#goods">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid p-5 bg-dark text-white text-center">
+        <h1 class="display-2">Bookstore Evelin</h1>
+        <p>Company description</p>
+    </div>
+    <div id="goods" class="container bg-grey text-center">
+        <h2 class="text-center my-5">Books</h2>
+        <div class="row justify-content-center">
+            <div class="col-sm-12">
+                <button class="btn btn-lg btn-primary" id="load">Load books</button>
+            </div>
+        </div>
+        <div class="row justify-content-center" id="books">
+
+        </div>
+    </div>
+
+    <div id="wrapper" class="row my-5">
+        <div class="col-sm-4 col-12">
+            <div class="item_box card text-center my-5 p-3">
+                <h5 class="item_title">Harry Potter and the Philosopher`s Stone</h5>
+                <p>Price: <span class="item_price">120</span>$</p>
+                <button class="add_item btn btn-lg btn-warning" data-id="1">Add to card</button>
+            </div>
+        </div>
+        <div class="col-sm-4 col-12">
+            <div class="item_box card text-center my-5 p-3">
+                <h5 class="item_title">Death on the Nile</h5>
+                <p>Price: <span class="item_price">120</span>$</p>
+                <button class="add_item btn btn-lg btn-warning" data-id="5">Add to card</button>
+            </div>
+        </div>
+
+        <div class="col-sm-4 col-12">
+            <div class="item_box card text-center my-5 p-3">
+                <h5 class="item_title">The Lord of the Rings</h5>
+                <p>Price: <span class="item_price">600</span>$</p>
+                <button class="add_item btn btn-lg btn-warning" data-id="3">Add to card</button>
+            </div>
+        </div>
+        <div id="wrapper" class="row my-5 text-center">
+            <div class="col-12">
+                <button id="checkout" class="btn btn-lg btn-warning">Go to card</button> &nbsp;
+                <button id="clear_cart" class="btn btn-lg btn-warning">Clear the card</button>
+            </div>
+        </div>
+        <div id="cart_content"></div>
+    </div>
+    <!-- <script src="./js/goods.js"></script>
+    <script src="./js/basket.js"></script> -->
+    <script src="./js/bundle.js"></script>
+</body>
+
+</html>

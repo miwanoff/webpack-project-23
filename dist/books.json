@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Harry Potter and the Philosopher’s Stone",
+    "author": "Joanne Rowling",
+    "imageCover": "https://www.britishbook.ua/upload/resize_cache/iblock/bf2/vsezowh6iraji3ecfwr0huo4mge6djuy/334_500_174b5ed2089e1946312e2a80dcd26f146/kniga_harry_potter_and_the_philosopher_s_stone.jpg",
+    "price": 190,
+    "count": 0
+  },
+  {
+    "title": "Death on the Nile",
+    "author": "Agatha Christie",
+    "imageCover": "https://www.britishbook.ua/upload/resize_cache/iblock/49e/94o9cqk42ssmx8xqk0499wqbgpi3kbut/500_765_174b5ed2089e1946312e2a80dcd26f146/kniga_death_on_the_nile_book_17_film_tie_in.jpg",
+    "price": 120,
+    "count": 0
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "John Ronald Reuel Tolkien",
+    "imageCover": "https://d1b14unh5d6w7g.cloudfront.net/0544003411.01.S001.LXXXXXXX.jpg?Expires=1681655206&Signature=P7dIrMhsorhBhsY0nrNYAXUHslS6Kk3hD~Edn8SVjRmLCKfXxnLp5pbMEh-PABXutXcpy6oSuScIBoygLQ2WxcnPkpG0SVKxdNPN~E4Vfy99VxlTTHNAeD4HKBYbbfpmWRual3hPjnY7tcbJHN7Jgp4bV1SV~A57FXMntyJIuRg_&Key-Pair-Id=APKAIUO27P366FGALUMQ",
+    "price": 600,
+    "count": 0
+  }
+]

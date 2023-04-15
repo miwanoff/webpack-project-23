@@ -1,0 +1,12 @@
+:root {
+  --primary: #1e90ff;
+  --secondary: #ffcf40;
+}
+
+h1 {
+  color: var(--primary);
+}
+
+button {
+  background-color: var(--secondary);
+}
